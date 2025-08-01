@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Discover Finland's attractions, activities, and history">
+  <meta name="keywords" content="Finland, Travel, Places to Visit, Activity">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #003366;
+  color: white;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0px 50px;
+}
+
+
+.logo {
+  color: #f8f8f8;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 0px 20px 0px;
+  position: static;
+}
+
+
+.logo span {
+  color:  #6699CC;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: transparent; /* Transparent nav background */
+  border-top: 2px solid white;
+}
+
+
+.nav li {
+  padding: 20px 30px 10px 30px;
+}
+
+
+.nav a { 
+  color: white; 
+  text-decoration: none;
+  font-size: 13px;
+  position: relative; 
+  padding-bottom: 5px; 
+  transition: all 0.3s;
+}
+
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  width: 0%;
+  height: 2px;
+  background-color: white; 
+  transition: all 0.4s ease-out;
+}
+
+
+
+.nav a:hover::before {
+  width: 100%; 
+  left: 0; 
+}
+
+
+
+.nav a:hover::before {
+  transition: all 0.4s ease-out;
+}
+
+
+.nav a:hover {
+  color: lightblue; 
+}
+
+
+header {
+            background-color: #0047AB;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .timeline {
+            margin: 50px 0;
+            border-left: 3px solid #0047AB;
+            padding-left: 20px;
+        }
+
+        .timeline-item {
+            margin: 20px 0;
+        }
+
+        .timeline-item h3 {
+            margin: 5px 0;
+        }
+
+        .historical-sites {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .site {
+            width: 30%;
+            background-color: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            color: black;
+        }
+
+        .site img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .site-content {
+            padding: 20px;
+        }
+
+        .site-content h3 {
+            margin: 0;
+            color: #0047AB;
+        }
+
+        .site-content p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #0047AB;
+            color: white;
+            padding: 10px;
+            margin-top: 50px;
+        }
+</style>
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Fin<span>land</span></h1>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="place.html">Places to Visit</a></li>
+        <li><a href="activity.html">Activity</a></li>
+        <li><a href="about.html">About Finland</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<header>
+        <h1>About Finland: A Journey Through History</h1>
+    </header>
+
+    <!-- Container for Content -->
+    <div class="container">
+
+        <!-- Introduction Section -->
+        <section>
+            <p>
+                Finland, a Nordic country known for its stunning natural landscapes, rich history, and vibrant culture, offers a unique blend of ancient traditions and modern innovations. Let’s explore some key events and places that have shaped this beautiful nation.
+            </p>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline">
+            <h2>Historical Timeline of Finland</h2>
+
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+                <h3>Prehistoric Finland</h3>
+                <p>Finland’s history dates back over 9,000 years, with the arrival of the first settlers during the Stone Age. The indigenous Sami people were among the first inhabitants.</p>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+                <h3>Medieval Era (12th - 16th Century)</h3>
+                <p>In the 12th century, Finland was integrated into the Kingdom of Sweden, marking the beginning of centuries of Swedish influence. Christianity spread rapidly during this time.</p>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+                <h3>Russian Rule (1809 - 1917)</h3>
+                <p>In 1809, Finland became an autonomous Grand Duchy under the Russian Empire while retaining its Swedish legal system and culture.</p>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+                <h3>Independence (1917)</h3>
+                <p>Finland declared independence from Russia on December 6, 1917, amidst the chaos of the Russian Revolution.</p>
+            </div>
+        </section>
+
+        <!-- Key Historical Sites Section -->
+        <section class="historical-sites">
+            <h2>Key Historical and Cultural Sites</h2>
+
+            <!-- Site 1: Helsinki Cathedral -->
+            <div class="site">
+              <div class="site-content">
+                    <h3>Helsinki Cathedral</h3>
+                    <p>Built in the mid-19th century, Helsinki Cathedral is a neoclassical masterpiece and a symbol of the Finnish capital.</p>
+                </div>
+            </div>
+
+            <!-- Site 2: Suomenlinna Fortress -->
+            <div class="site">
+                <div class="site-content">
+                    <h3>Suomenlinna Fortress</h3>
+                    <p>A sea fortress built by the Swedes in the 18th century to defend against Russia, now a UNESCO World Heritage Site.</p>
+                </div>
+            </div>
+
+            <!-- Site 3: Turku Castle -->
+            <div class="site">
+                <div class="site-content">
+                    <h3>Turku Castle</h3>
+                    <p>Finland’s oldest medieval building, dating back to the 13th century, played a vital role during Swedish rule.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+  
