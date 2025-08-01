@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Discover Finland's attractions, activities, and history">
+  <meta name="keywords" content="Finland, Travel, Places to Visit, Activity">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #003366;
+  color: white;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0px 50px;
+}
+
+
+.logo {
+  color: #f8f8f8;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 0px 20px 0px;
+  position: static;
+}
+
+
+.logo span {
+  color:  #6699CC;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: transparent; /* Transparent nav background */
+  border-top: 2px solid white;
+}
+
+.nav li {
+  padding: 20px 30px 10px 30px;
+}
+
+.nav a { 
+  color: white; 
+  text-decoration: none;
+  font-size: 13px;
+  position: relative; 
+  padding-bottom: 5px; 
+  transition: all 0.3s;
+}
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  width: 0%;
+  height: 2px;
+  background-color: white; 
+  transition: all 0.4s ease-out;
+}
+
+.nav a:hover::before {
+  width: 100%; 
+  left: 0; 
+}
+
+.nav a:hover::before {
+  transition: all 0.4s ease-out;
+}
+
+.nav a:hover {
+  color: lightblue; 
+}
+
+/* Place Page */
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+  object-fit: scale-down;
+
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ffffff;
+  border-left: 2px solid skyblue;
+  padding-left: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-left: 2px solid  #FFCC00;
+  padding-left: 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.word{
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Fin<span>land</span></h1>
+      </div>
+      <ul class="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="place.html">Places to Visit</a></li>
+        <li><a href="activity.html">Activity</a></li>
+        <li><a href="about.html">About Finland</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<section class="interesting">
+
+<div class="word">
+<h1>Interesting Places</h1>
+<p>Immerse yourself in the beauty and wonder of Finland's most interesting places.</p>
+</div>
+
+
+<div class="card">
+  <img src="helsinki-cathederal.jpg" alt="Helsinki Cathedral">
+  <h2>Helsinki Cathedral</h2>
+  <p>A neoclassical masterpiece with a distinctive green dome.</p>
+  <a href="https://www.visitfinland.com/en/product/7405d046-bddb-4424-93cb-306ff4802a2e/helsinki-cathedral/" target="blank" class="btn">Discover Helsinki Cathedral</a>
+</div>
+
+<div class="card">
+  <img src="rovaniemi.jpg" alt="Rovaniemi">
+  <h2>Rovaniemi</h2>
+  <p>Rovaniemi, located on the Arctic Circle, is a place full of vibrant life and culture surrounded by pristine nature and breath-taking nature phenomena every day of the year.</p>
+  <a href="https://www.visitfinland.com/en/places-to-go/lapland/rovaniemi/" target="blank" class="btn">Discover Rovaniemi</a>
+</div>
+
+<div class="card">
+  <img src="turku.jpg" alt="Turku">
+  <h2>Turku Archipelago</h2>
+  <p>On this journey, you will get to experience the beautiful Turku archipelago region on the west coast of Finland and the fresh flavours of the Baltic Sea.</p>
+  <a href="https://www.visitfinland.com/en/journey/54b19581-fb0e-4212-a6c9-fd25fbdc52d8/true-taste-of-turku-archipelago/" target="blank" class="btn">Discover Turku</a>
+</div>
+
+<div class="card">
+  <img src="tampere.jpg" alt="Tampere">
+  <h2>Tampere</h2>
+  <p>Tampere is the sauna capital of the world – but there’s plenty more to it than that. Located in the Lakeland region, it’s on a scenic spot on a narrow isthmus between two great lakes.</p>
+  <a href="https://www.visitfinland.com/en/articles/tampere-sauna-capital-of-the-world/" target="blank" class="btn">Discover Tampere</a>
+</div>
+
+<div class="card">
+  <img src="island.jpg" alt="Pihlajasaari, “Rowan island”">
+  <h2>Pihlajasaari, “Rowan island”</h2>
+  <p>Pihlajasaari is the most popular island among Helsinkians to spend a sunny summer’s day. The island is famous for its picturesque sandy beaches and rocks, offering great spots for sunbathers and swimmers</p>
+  <a href="https://www.visitfinland.com/en/articles/the-helsinki-islands/" target="blank" class="btn">Discover "Rowan Island"</a>
+</div>
+
+</section>
+
+<section class="historical">
+
+<div class="word">
+<h1>Historical Places</h1>
+
+<p>Discover the hidden stories of Finland's rich history.</p>
+
+</div>
+
+<div class="card">
+  <img src="Old-Porvoo.jpg" alt="Old Porvoo">
+  <h2>Old Porvoo</h2>
+  <p>An easy and idyllic place to combine shopping and dining with an enchanting walk through history.</p>
+  <a href="https://www.visitfinland.com/en/articles/the-wooden-towns-of-finland/" target="blank" class="btn">Discover Old Porvoo</a>
+</div>
+
+<div class="card">
+  <img src="Old-Rauma.jpg" alt="Old Rauma">
+  <h2>Old Rauma</h2>
+  <p>One of the few UNESCO World Heritage Sites in Finland, a stroll through Old Rauma is the perfect activity for any history-lover.</p>
+  <a href="https://www.visitfinland.com/en/articles/the-wooden-towns-of-finland/" target="blank" class="btn">Discover Old Rauma</a>
+</div>
+
+<div class="card">
+  <img src="Library.jpg" alt="The National Library of Finland">
+  <h2>The National Library of Finland, Helsinki</h2>
+  <p>The main building dates back to the 1840s, and the library is an integral part of the intact Neoclassical architecture of the Senate Square.</p>
+  <a href="https://www.visitfinland.com/en/articles/most-beautiful-libraries-in-finland/" target="blank" class="btn">Discover Finland's Library</a>
+</div>
+
+<div class="card">
+  <img src="Senate-Square.jpg" alt="Senate Square">
+  <h2>Senate Square</h2>
+  <p>A historically significant area for Finnish architecture is the Senate Square.</p>
+  <a href="https://www.visitfinland.com/en/articles/finnish-architecture-icons-of-helsinki/" target="blank" class="btn">Discover The Senate Square</a>
+</div>
+
+<div class="card">
+  <img src="museum.jpg" alt="National Museum of Finland">
+  <h2>National Museum of Finland</h2>
+  <p>The National Museum of Finland, Kansallismuseo, offers visitors a captivating journey through the rich history of Finland</p>
+  <a href="https://www.visitfinland.com/en/articles/must-visit-museums-in-finland/" target="blank" class="btn">Discover Finland's Museum</a>
+</div>
+
+</section>
+</body>
+</html>

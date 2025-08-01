@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Finland</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <meta charset="UTF-8">
+  <meta name="description" content="Discover Finland's attractions, activities, and history">
+  <meta name="keywords" content="Finland, Travel, Places to Visit, Activity">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #003366;
+  color: white;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0px 50px;
+}
+
+
+.logo {
+  color: #f8f8f8;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 0px 20px 0px;
+  position: static;
+}
+
+
+.logo span {
+  color:  #6699CC;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: transparent; /* Transparent nav background */
+  border-top: 2px solid white;
+}
+
+.nav li {
+  padding: 20px 30px 10px 30px;
+}
+
+.nav a { 
+  color: white; 
+  text-decoration: none;
+  font-size: 13px;
+  position: relative; 
+  padding-bottom: 5px; 
+  transition: all 0.3s;
+}
+
+.nav a::before {
+  content: '';
+  position: absolute;
+  bottom: 0; 
+  left: 0; 
+  width: 0%;
+  height: 2px;
+  background-color: white; 
+  transition: all 0.4s ease-out;
+}
+
+.nav a:hover::before {
+  width: 100%; 
+  left: 0; 
+}
+
+.nav a:hover::before {
+  transition: all 0.4s ease-out;
+}
+
+.nav a:hover {
+  color: lightblue; 
+}
+
+/* Place Page */
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+  object-fit: scale-down;
+
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #ffffff;
+  border-left: 2px solid skyblue;
+  padding-left: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-left: 2px solid  #FFCC00;
+  padding-left: 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.word{
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Fin<span>land</span></h1>
+      </div>
+      <ul class="nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="place.html">Places to Visit</a></li>
+        <li><a href="activity.html">Activity</a></li>
+        <li><a href="about.html">About Finland</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="word">
+<h1>Things To Do</h1>
+<p>Immerse yourself in the beauty and wonder of Finland's most interesting places.</p>
+</div>
+
+
+<div class="card">
+  <img src="sauna.jpg" alt="Sauna">
+  <h2>Sauna</h2>
+  <p>With an estimated three million saunas in Finland, it’s practically an impossible task to spotlight just five. Here’s a sampling of sauna experiences in different parts of the country – consider it an amuse-bouche for more in-depth explorations./p>
+  <a href="https://www.visitfinland.com/en/articles/5-must-experience-saunas-in-finland/" target="blank" class="btn">Learn More</a>
+</div>
+
+<div class="card">
+  <img src="hikig.jpg" alt="Hiking">
+  <h2>Hiking</h2>
+  <p>When it comes to experiencing the natural wonders of Finland, few activities can rival the joy and excitement of going for a walk or a hike.</p>
+  <a href="https://www.visitfinland.com/en/articles/tips-for-hiking-and-walking-in-finland/" target="blank" class="btn">Learn More</a>
+</div>
+
+<div class="card">
+  <img src="fish.jpg" alt="Ice Skating">
+  <h2>Ice Skating</h2>
+  <p>Finland, lovingly nicknamed the land of a thousand lakes, offers various icy winter activities.Ice skating is just one of the many.</p>
+  <a href="https://www.visitfinland.com/en/articles/discover-finnish-winter-on-ice/" target="blank" class="btn">Learn More</a>
+</div>
+
+<div class="card">
+  <img src="ski.jpg" alt="Skiing">
+  <h2>Skiing</h2>
+  <p>In Finland, you can ski your heart out in top ski resorts and try many kinds of winter activities from Northern lights hunting to reindeer riding and snowshoeing.</p>
+  <a href="https://www.visitfinland.com/en/articles/best-ski-resorts-in-finland/" target="blank" class="btn">Discover Tampere</a>
+</div>
+
+<div class="card">
+  <img src="light.jpg" alt="The Nothern Light">
+  <h2>Seeing The Nothern Light</h2>
+  <p>Northern Lights are most visible from the end of August to April in northern Finland. Auroras, caused by solar winds, occur year-round but the nights need to be dark enough for us to be able to catch a glimpse of this phenomenal light show.</p>
+  <a href="https://www.visitfinland.com/en/articles/the-best-times-to-see-northern-lights/" target="blank" class="btn">Learn More</a>
+</div>
+
+
+</body>
+</html>
